@@ -1,0 +1,92 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II
+# Version 9.0 Build 132 02/25/2009 SJ Web Edition
+# Date created = 13:06:46  July 09, 2020
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		sarbazi_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Stratix II"
+set_global_assignment -name DEVICE AUTO
+set_global_assignment -name TOP_LEVEL_ENTITY EXMEM
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:06:46  JULY 09, 2020"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.0
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE FASTEST
+set_global_assignment -name LL_ROOT_REGION ON -entity sarbazi -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity sarbazi -section_id "Root Region"
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name LL_ROOT_REGION ON -entity play -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -entity play -section_id "Root Region"
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE ALU.vwf
+set_global_assignment -name EDA_SIMULATION_TOOL "<None>"
+set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT NONE -section_id eda_simulation
+set_global_assignment -name MISC_FILE "C:/Users/Asus/Desktop/Semi-Mips/sarbazi.dpf"
+set_global_assignment -name BDF_FILE EXMEM.bdf
+set_global_assignment -name BDF_FILE memwb.bdf
+set_global_assignment -name VERILOG_FILE MegaWizardSymbols/reg5.v
+set_global_assignment -name AHDL_FILE MegaWizardSymbols/reg_ex.tdf
+set_global_assignment -name MIF_FILE sarbazi.mif
+set_global_assignment -name BDF_FILE "sarbazi-register.bdf"
+set_global_assignment -name QIP_FILE lpm_mux0.qip
+set_global_assignment -name QIP_FILE lpm_decode0.qip
+set_global_assignment -name QIP_FILE filfil.qip
+set_global_assignment -name VERILOG_FILE instMem.v
+set_global_assignment -name VERILOG_FILE ALU.v
+set_global_assignment -name QIP_FILE adder.qip
+set_global_assignment -name BDF_FILE instFetchLEVEL.bdf
+set_global_assignment -name BDF_FILE instDecodeLEVEL.bdf
+set_global_assignment -name BDF_FILE controller.bdf
+set_global_assignment -name QIP_FILE littleMUX.qip
+set_global_assignment -name BDF_FILE ExecuteLevel.bdf
+set_global_assignment -name BDF_FILE MemoryLevel.bdf
+set_global_assignment -name QIP_FILE comparator.qip
+set_global_assignment -name QIP_FILE lpm_compare0.qip
+set_global_assignment -name QIP_FILE lpm_compare1.qip
+set_global_assignment -name QIP_FILE MegaWizardSymbols/reg.qip
+set_global_assignment -name BDF_FILE IFID.bdf
+set_global_assignment -name BDF_FILE IDEX.bdf
+set_global_assignment -name QIP_FILE MegaWizardSymbols/reg_wb.qip
+set_global_assignment -name QIP_FILE reg_memory.qip
+set_global_assignment -name BDF_FILE BranchAddress.bdf
+set_global_assignment -name BDF_FILE signExtender.bdf
+set_global_assignment -name QIP_FILE pcMux.qip
+set_global_assignment -name VERILOG_FILE branchControl.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
+set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

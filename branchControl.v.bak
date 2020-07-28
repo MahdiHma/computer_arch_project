@@ -1,0 +1,4 @@
+module barnchControl(branch, branchOpcode, zero, lesOrEqual);
+	input branch;
+	input branchOpcode;
+endmodule 
